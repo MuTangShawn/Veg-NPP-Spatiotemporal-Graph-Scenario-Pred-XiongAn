@@ -1,13 +1,9 @@
 ﻿
-from matplotlib.pyplot import cool
 import numpy as np
 
 import torch
 from torch import optim
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-
-import sklearn.linear_model
-import sklearn.metrics
 
 import matplotlib.pyplot as plt
 
@@ -16,7 +12,6 @@ import tqdm
 import GetModel
 import DrawLog
 import CONFIG
-import PATH
 
 def logcosh(pred, true):
     loss = torch.log(torch.cosh(pred - true))

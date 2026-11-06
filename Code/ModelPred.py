@@ -1,8 +1,6 @@
 ﻿
 import os
-import glob
 import time
-import pickle
 
 import numpy as np
 import pandas as pd
@@ -13,8 +11,7 @@ import tqdm
 
 import torch
 
-from torch_geometric.data import Data, Dataset
-from torch_geometric.loader import DataLoader
+from torch_geometric.data import Data
 
 import GetModel
 from DataProcess import stl_residual_vmd
