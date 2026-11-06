@@ -23,6 +23,8 @@ Township-NPP-Prediction/
 │
 ├── Code/
 │
+├── LICENCE
+│
 └── README.md
 ```
 
